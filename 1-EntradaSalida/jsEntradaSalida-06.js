@@ -11,14 +11,17 @@ function sumar()
 	numerouno = parseInt (document.getElementById ("txtIdNumeroUno").value);
 	numerodos = parseInt (document.getElementById ("txtIdNumeroDos").value);
 	
+	//numerouno = parseInt(numerouno)
+	//numerodos = parseInt(numerodos)
+
 	//parseInt modifica una cadena de texto (ascii) a valor numerico
-	//parseFloat
+	//parseFloat igual a parseInt solo que reconoce el (.)
 
 	resultado = numerouno + numerodos;
 
 	
-	//alert ("la suma es " resultado);
-	alert (`la suma es ${resultado}`);
+	alert ("la suma es " + resultado);
+	//alert (`la suma es ${resultado}`);
 
 
 }
