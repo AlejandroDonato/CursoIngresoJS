@@ -8,7 +8,8 @@ function mostrar()
 	alert(nombreIngresado);
 
 // nombre = txtIdNombre.value; (otra opcion casual)
-
+// lower camel case  empieza con minuscula
+// upper camel case  empieza con mayusculas
 }
 
 
