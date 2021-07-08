@@ -5,12 +5,15 @@ mostrar el importe con un Descuento del 25 %
 en el cuadro de texto "RESULTADO"*/
 function mostrarAumento()
 {
-	let sueldo;
-	let nuevosueldo;
+	let importe;
+	let nuevoimporte;
 	
-	sueldo = parseFloat(document.getElementById("txtIdImporte").value);
+	importe = parseFloat(document.getElementById("txtIdImporte").value);
 	
-	nuevosueldo = sueldo * .75 ;
+	nuevoimporte = importe * .75 ;
 
-	(document.getElementById("txtIdResultado").value) = nuevosueldo;
+	//tambien pordria poenerse como en el ejercicio anterior calculando ela umento * 25 / 100
+	//y luego restarselo al precio inicial
+
+	(document.getElementById("txtIdResultado").value) = nuevoimporte;
 }
