@@ -7,7 +7,7 @@ function mostrar()
 	edad = parseInt(document.getElementById("txtIdEdad").value);
 	estadocivil = (document.getElementById("estadoCivil").value);
 
-	if(edad <= 17){
+	/*if(edad <= 17){
 
 		if(estadocivil == "Casado" || estadocivil == "Divorciado"){
 
@@ -15,6 +15,10 @@ function mostrar()
 	
 		}
 
+	}*/
+
+	if(edad <=17 && estadocivil != "Soltero"){
+		alert ("Es muy pequeño para NO ser soltero");
 	}
 
 }

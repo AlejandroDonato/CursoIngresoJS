@@ -14,3 +14,5 @@ function mostrar()
 	}
 
 }
+// por la negativa
+// if(!(edad < 18 || estadocivil != "Soltero"))
