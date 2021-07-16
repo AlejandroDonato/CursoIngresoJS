@@ -5,7 +5,9 @@ function mostrar()
 
 	estacion = document.getElementById("txtIdEstacion").value;
 	destino = document.getElementById("txtIdDestino").value;
-
+	
+	// forma que se me ocurrio provar si funcionaba
+	/*  
 	if ((estacion == "Invierno" && destino == "Bariloche") ||
 		(estacion == "Verano" && (destino == "Mar del plata" || destino == "Cataratas")) || 
 		(estacion == "Otoño") || (estacion == "Primavera" && destino != "Bariloche")) {
@@ -13,10 +15,9 @@ function mostrar()
 	}
 	else{
 		alert("No se viaja")
-	}
+	}*/
 
-
-	/*
+	//forma correcta segun lo que pedia el ejercicio
 	switch(estacion){
 		case "Invierno":
 			switch (destino){
@@ -53,5 +54,4 @@ function mostrar()
 			}
 		break;
 	}
-	*/
 }
