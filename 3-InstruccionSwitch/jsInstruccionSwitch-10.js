@@ -6,6 +6,42 @@ function mostrar()
 	estacion = document.getElementById("txtIdEstacion").value;
 	destino = document.getElementById("txtIdDestino").value;
 	
+	// tarea
+
+	switch(destino){
+		case "Bariloche":
+			if(estacion == "Invierno" || estacion == "Otoño"){
+				alert("Se viaja");
+			}
+			else{
+				alert("No se viaja");
+			}
+		break;
+		case "Mar del plata":
+			if(estacion == "Invierno"){
+				alert("No se viaja");
+			}
+			else{
+				alert("Se viaja");
+			}
+		break;
+		case "Cataratas":
+			if(estacion == "Invierno"){
+				alert("No se viaja");
+			}
+			else{
+				alert("Se viaja");
+			}
+		break;
+		case "Cordoba":
+			if(estacion == "Primavera" || destino == "Otoño"){
+				alert("Se viaja");
+			}
+			else{
+				alert("No se viaja");
+			}
+		break;
+	}
 	// forma que se me ocurrio provar si funcionaba
 	/*  
 	if ((estacion == "Invierno" && destino == "Bariloche") ||
@@ -18,6 +54,7 @@ function mostrar()
 	}*/
 
 	//forma correcta segun lo que pedia el ejercicio
+/*
 	switch(estacion){
 		case "Invierno":
 			switch (destino){
@@ -54,4 +91,5 @@ function mostrar()
 			}
 		break;
 	}
+*/
 }

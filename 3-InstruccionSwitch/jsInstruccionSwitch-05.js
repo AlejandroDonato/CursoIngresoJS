@@ -4,7 +4,6 @@ function mostrar()
 	hora =parseInt(document.getElementById("txtIdHora").value);
 
 	switch(hora){
-
 		case 7:
 		case 8:
 		case 9:
