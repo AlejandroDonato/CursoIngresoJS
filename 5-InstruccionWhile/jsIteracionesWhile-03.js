@@ -5,8 +5,9 @@ function mostrar()
 	let clave;
 	clave = 0;
 	
+	clave =	prompt("Ingrese clave: ");
 	while(clave != "utn750"){
-	clave =	prompt("ingrese el clave.");
+	clave =	prompt("clave incorrecta. Reingrese clave.");
 	}
 	alert("contraseña correcta");
 }
