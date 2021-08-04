@@ -1,8 +1,16 @@
 function mostrar()
 {
+	let cantidad;
 
-	var repetciones = prompt("ingrese el número de repeticiones");
-	alert("ok");
+	cantidad = parseInt(prompt("Ingrese cantidad de repeticiones"))
+	
+	while(isNaN(cantidad)){
+		cantidad = parseInt(prompt("Error, Ingrese cantidad de peticiones valida"))
+	}
 
+	for (let i = 1; i <= cantidad; i++) {
 
-}//FIN DE LA FUNCIÓN
+	alert("Hola UTN FRA");
+	
+}
+}
